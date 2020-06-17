@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/canaryBackgroundColor"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/entry_mood"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/elated" />
+
+    <TextView
+        android:id="@+id/entry_date_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/entry_mood"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/recent_pastimes_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/recent_activities"
+        app:layout_constraintStart_toEndOf="@+id/entry_mood"
+        app:layout_constraintTop_toBottomOf="@+id/entry_date_time" />
+
+    <TextView
+        android:id="@+id/entry_pastimes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        android:ellipsize="end"
+        android:maxLines="8"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/recent_pastimes_label"
+        app:layout_constraintTop_toBottomOf="@+id/entry_date_time" />
+
+    <TextView
+        android:id="@+id/notes_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/notes_label"
+        app:layout_constraintStart_toEndOf="@+id/entry_mood"
+        app:layout_constraintTop_toBottomOf="@+id/entry_weather" />
+
+    <TextView
+        android:id="@+id/entry_notes"
+        android:layout_width="242dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/notes_label"
+        app:layout_constraintTop_toBottomOf="@+id/entry_weather" />
+
+    <TextView
+        android:id="@+id/weather_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/weather_label"
+        app:layout_constraintStart_toEndOf="@+id/entry_mood"
+        app:layout_constraintTop_toBottomOf="@+id/entry_pastimes" />
+
+    <TextView
+        android:id="@+id/entry_weather"
+        android:layout_width="228dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/weather_label"
+        app:layout_constraintTop_toBottomOf="@+id/entry_pastimes" />
+</androidx.constraintlayout.widget.ConstraintLayout>

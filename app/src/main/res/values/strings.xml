@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Canary</string>
+    <string name="tags">Tags</string>
+    <string name="trends">Trends</string>
+    <string name="history">History</string>
+    <string name="profile">Profile</string>
+    <string name="mood_entry_fragment_tag">mood_entry</string>
+    <string name="how_are_you_doing">How are you doing?</string>
+    <string name="what_have_you_done_lately">What have you done lately?</string>
+    <string name="is_there_anything_else_you_want_to_remember_about_this_moment">Is there anything else you want to remember about this moment?</string>
+    <string name="i_noticed_that">I noticed that...</string>
+    <string name="record_my_mood">Record My Mood!</string>
+    <string name="recent_activities">Recent Activities:</string>
+    <string name="lately_i_ve_felt">Lately I\'ve felt...</string>
+    <string name="trends_in_my_mood">Trends in My Mood</string>
+    <string name="one_paragraph_hipster_ipsum">Hexagon glossier letterpress kitsch, helvetica drinking vinegar chillwave williamsburg fingerstache wayfarers snackwave intelligentsia hella. Green juice waistcoat prism mumblecore. Bitters mixtape fixie photo booth freegan. Microdosing slow-carb hot chicken, lomo pabst man braid marfa ennui.</string>
+    <string name="pie_charts_whatever">Pie Charts Whatever</string>
+    <string name="moods">Moods</string>
+    <string name="pastimes">Activities</string>
+    <string name="notes"> Notes:</string>
+    <string name="notes_label"> Notes:</string>
+    <string name="what_is_the_weather_like_right_now">What is the weather like right now?</string>
+    <string name="weather_label"> Weather:</string>
+    <string name="enter_a_unique_pastime">Enter A Unique Activity</string>
+    <string name="add_pastime">Add Activity to Mood Log</string>
+    <string name="your_pastimes">Your Activities</string>
+    <string name="pastime_item_text">pastime item text</string>
+    <string name="delete_pastime_alert">Are you sure you want to delete this activity?</string>
+    <string name="ok" />
+    <string name="mood_and_activity_breakdown">Mood and Activity Breakdown</string>
+    <string name="sign_in">Sign In</string>
+    <string name="greeting">Hello, %1$s!</string>
+</resources>
